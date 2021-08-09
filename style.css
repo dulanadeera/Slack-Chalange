@@ -1,0 +1,142 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+}
+
+body{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: whitesmoke;
+}
+
+.headcontainer
+{
+    height: 2rem;
+}
+.headcontainer label
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.headcontainer1
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+}
+
+.headcontainer1 .top{
+    display: flex; 
+    justify-content: center;
+ 
+
+   
+}
+.headcontainer1 .middle{
+    display: flex; 
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+
+}
+.headcontainer1 .bottom{
+    display: flex; 
+    justify-content: center;
+}
+
+.bottom  .one{
+    background-color: teal;
+    padding: 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.bottom  .two{
+    background-color: #cc33ff;
+    padding: 0.5rem;
+    color: white;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.headcontainer2
+{
+    display: flex;
+    flex-direction: row;
+  
+  margin-top: 4rem;
+}
+
+.headcontainer2 .img1{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: space-around;
+padding: 0.4rem;
+}
+.img1 img{
+    border: none;
+border-radius: 0.3rem;
+width: 10rem;
+height: 8rem;
+}
+
+.headcontainer3
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.headcontainer3 .middletop{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: teal;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 750;
+    
+}
+
+.headcontainer3 .middlemid{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.headcontainer3 .middlebottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.headcontainer4{
+    display: flex;
+    margin-top: 2em;
+  
+}
+.headcontainer4 img{
+    width: 84rem;
+    height:12rem ;
+    border: none;
+    background-size: cover;
+  
+}
